@@ -3,7 +3,7 @@ package datastructure;
 import java.util.Scanner;
 
 public class PrimitiveType {
-    public static void main(String[] args) {
+    public static void main(StringExample[] args) {
         Scanner sc=new Scanner(System.in);
       float s1=sc.nextFloat();
       float s2=sc.nextFloat();
