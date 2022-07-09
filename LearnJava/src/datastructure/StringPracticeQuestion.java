@@ -15,22 +15,31 @@ public class StringPracticeQuestion {
 //        String replacename=sc.nextLine();
 //        String greeting="Dear name , Thanks a lot!";
 //        System.out.println(greeting.replace("name",replacename));
-        String spacestring=sc.nextLine();
-        int doublespace=spacestring.indexOf("  ");
-        int triplespace=spacestring.indexOf("   ");
-        if (doublespace==-1)
-        {
-            System.out.println(" double space not available in the string");
+//        String spacestring=sc.nextLine();
+//        if (doublespace==-1)
+//        {
+//            System.out.println(" double space not available in the string");
+//        }
+//        else {
+//            System.out.println(doublespace);
+//        }
+//        if (triplespace==-1){
+//            System.out.println(" triple space not available in the string");
+//        }
+//        else{
+//            System.out.println(triplespace);
+//        }
+//        System.out.println(spacestring.indexOf("  ",doublespace+1));
+        String spacestring ="my name  is prince  kumar";
+        int checknxtspace=spacestring.indexOf("  ");
+//        int triplespace=spacestring.indexOf("   ");
+        while (checknxtspace!=-1){
+            System.out.println(checknxtspace);
+             checknxtspace=spacestring.indexOf("  ",checknxtspace+1);
+
         }
-        else {
-            System.out.println(doublespace);
-        }
-        if (triplespace==-1){
-            System.out.println(" triple space not available in the string");
-        }
-        else{
-            System.out.println(triplespace);
-        }
+//        System.out.println();
+
 
 
 
