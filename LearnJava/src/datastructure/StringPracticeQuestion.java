@@ -5,45 +5,52 @@ import java.util.Scanner;
 
 public class StringPracticeQuestion {
     public static void main(String[] args) {
-        //java program to replace spaces to underscore
         Scanner sc=new Scanner(System.in);
-//        String sentence= "hello my name is prince kumar \n i am 19 years old";
-//        System.out.println(sentence.replace(" ","_"));
-//        //java program to convert sring lower case to upper case
-//        String lower="my name is Prince kumar";
-//        System.out.println(lower.toUpperCase(Locale.ROOT));
-//        String replacename=sc.nextLine();
-//        String greeting="Dear name , Thanks a lot!";
-//        System.out.println(greeting.replace("name",replacename));
-//        String spacestring=sc.nextLine();
-//        if (doublespace==-1)
-//        {
-//            System.out.println(" double space not available in the string");
-//        }
-//        else {
-//            System.out.println(doublespace);
-//        }
-//        if (triplespace==-1){
-//            System.out.println(" triple space not available in the string");
-//        }
-//        else{
-//            System.out.println(triplespace);
-//        }
-//        System.out.println(spacestring.indexOf("  ",doublespace+1));
-        String spacestring ="my name  is prince  kumar";
-        int checknxtspace=spacestring.indexOf("  ");
-//        int triplespace=spacestring.indexOf("   ");
-        while (checknxtspace!=-1){
-            System.out.println(checknxtspace);
-             checknxtspace=spacestring.indexOf("  ",checknxtspace+1);
+//        String s1="Hello have a good day!";
+//        int avowel=s1.indexOf("a");
+//        int evowel=s1.indexOf("e");
+//        int ivowel=s1.indexOf("i");
+//        int ovowel=s1.indexOf("o");
+//        int uvowel=s1.indexOf("u");
+//        System.out.println(avowel);
+//        System.out.println(evowel);
+//        System.out.println(ivowel);
+//        System.out.println(ovowel);
+//        System.out.println(uvowel);
+        String s;
+        int j=0;
+        System.out.println("Enter a string");
+        Scanner so=new Scanner(System.in);
+        s= so.nextLine();
+        char ch[]=new char[20];
+
+        for(int i=0;i<s.length();i++)
+
+        {
+
+            if(s.charAt(i)=='a'|| s.charAt(i)=='A'||s.charAt(i)=='e'|| s.charAt(i)=='E'||s.charAt(i)=='i'|| s.charAt(i)=='I'||s.charAt(i)=='o'|| s.charAt(i)=='O'||s.charAt(i)=='U'|| s.charAt(i)=='u')
+
+            {
+                ch[j++]=s.charAt(i);
+
+
+            }
+
+            else
+
+            {
+
+                continue;
+
+            }
 
         }
-//        System.out.println();
-
-
-
-
-
-
+        for(int i=0;i<j;i++)
+        {
+            System.out.print(ch[i]);
+        }
+        System.out.println();
     }
+
 }
+

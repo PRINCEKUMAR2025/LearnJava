@@ -43,7 +43,7 @@ public class StringExample {
 //        System.out.println(s2.charAt(5));
 //        System.out.println(s2.indexOf("inc"));
 //        System.out.println(s2.indexOf("in", 3));
-        String s4 = "anana";
+        String s4 = "banaananana";
         System.out.println(s4.indexOf("na", 5));
         System.out.println(s4.lastIndexOf("na", 4));
 //        System.out.println(s2.equals("prince"));
