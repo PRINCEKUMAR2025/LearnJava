@@ -2,23 +2,23 @@ package datastructure;
 
 import java.util.Scanner;
 /*
-5! = 5*(5-1)*(5-2)*(5-3)*(5-4)
-1*5
-5*4=20
-20*3=60
-60*2=120
-120*1=120
 
  */
 public class Loops {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n=5;
-        int factorial=1;
-        for (int i=0;i<n;i++){
-            factorial=  factorial * (n-i);
+        int sum=0;
+        int a[] = new int[5];
+        for (int i=0;i<5;i++){
+            a[i] = sc.nextInt();
         }
-        System.out.println(factorial);
+        for (int i=0;i<5;i++){
+//            System.out.println(a[i]);
+            if (a[i]%2==0){
+                sum=sum+a[i];
+            }
+        }
+        System.out.println(sum);
 
     }
 }
