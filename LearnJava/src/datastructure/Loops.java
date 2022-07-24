@@ -4,19 +4,13 @@ import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
-//        Scanner sc =new Scanner(System.in);
-//        int tillwhat=sc.nextInt();
-        int n=0;
+        Scanner sc =new Scanner(System.in);
+        int n=10;
         int sum=0;
-        do {
-            int even=2*n;
-//            System.out.println(even);
-            n++;
-            sum=even+sum;
-//            System.out.println(sum);
-        }while (n<=10);
-        System.out.println(sum);
-
-
+        for (int i=1;i<n;i++){
+            int even=2*i;
+            System.out.println(even);
+        }
+//        System.out.println(sum);
     }
 }
