@@ -7,18 +7,22 @@ import java.util.Scanner;
 public class Loops {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int sum=0;
-        int a[] = new int[5];
-        for (int i=0;i<5;i++){
-            a[i] = sc.nextInt();
-        }
-        for (int i=0;i<5;i++){
-//            System.out.println(a[i]);
-            if (a[i]%2==0){
-                sum=sum+a[i];
-            }
-        }
-        System.out.println(sum);
+       int a=sc.nextInt();
+       int b=sc.nextInt();
+       int c=sc.nextInt();
 
+       if (a>b){
+           if (a>c){
+               System.out.println("the greater no is"+a);
+           }
+       }
+       else if (b>a){
+           if (b>c){
+               System.out.println("the greater no is"+b);
+           }
+       }
+       else {
+           System.out.println("the greater no is"+c);
+       }
     }
 }
