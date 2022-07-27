@@ -13,16 +13,16 @@ public class Loops {
 
        if (a>b){
            if (a>c){
-               System.out.println("the greater no is"+a);
+               System.out.println(a);
            }
        }
-       else if (b>a){
+       if (b>a){
            if (b>c){
-               System.out.println("the greater no is"+b);
+               System.out.println(b);
            }
        }
        else {
-           System.out.println("the greater no is"+c);
+           System.out.println(c);
        }
     }
 }
