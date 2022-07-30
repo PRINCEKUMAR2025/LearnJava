@@ -20,6 +20,14 @@ public class Methods {
         int f=a*b*c*d;
         System.out.println(f);
     }
+
+    public static int sum(int ...arr){
+        int result=0;
+        for (int a:arr){
+            result+=a;
+        }
+        return result;
+    }
     public static void main(String[] args) {
         Methods obj = new Methods();
         int a=obj.multiplication(2,3);
@@ -27,6 +35,8 @@ public class Methods {
         joke();
         multiplication(1,2,3);
         multiplication(4,4,4,4);
+        int res=sum(1,2,3,4,5,6,7,8,9,10);
+        System.out.println(res);
     }
 
 }
