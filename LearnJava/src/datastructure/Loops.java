@@ -19,10 +19,10 @@ public class Loops {
        if (b>a){
            if (b>c){
                System.out.println(b);
+           }    else {
+               System.out.println(c);
            }
        }
-       else {
-           System.out.println(c);
-       }
+
     }
 }
