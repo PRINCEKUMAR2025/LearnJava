@@ -13,6 +13,6 @@ public class Array {
         for (int elements : marks){
             System.out.println(elements);
         }
-        Thread.sleep(100000);
+//        Thread.sleep(100000);
     }
 }
