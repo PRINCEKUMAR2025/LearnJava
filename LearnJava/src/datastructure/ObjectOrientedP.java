@@ -23,6 +23,13 @@ public class ObjectOrientedP {
 //        System.out.println(Prince.regno);
 //        System.out.println(Prince.year);
         Prince.printdetails();
+        Prince.printcgpa();
+        deep.printdetails();
+        deep.printcgpa();
+        rectangle rec=new rectangle();
+        rec.breadth=3;
+        rec.length=2;
+        rec.getarea();
 
         }
 
@@ -39,6 +46,17 @@ class Student{
     }
     public void printcgpa(){
         System.out.println(cgpa);
+    }
+}
+
+class rectangle{
+    int length;
+    int breadth;
+
+    public void getarea(){
+        int area;
+        area=length*breadth;
+        System.out.println(area);
     }
 }
 
