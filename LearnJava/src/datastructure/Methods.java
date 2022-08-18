@@ -45,8 +45,8 @@ public class Methods {
 //        return table;
     }
 
-    3
-    3 + "" = "3"
+    //3
+   //  3 + "" = "3"
     public static void main(String[] args) {
         Methods obj = new Methods();
         int a=obj.multiplication(2,3);
