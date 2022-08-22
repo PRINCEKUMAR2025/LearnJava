@@ -18,12 +18,12 @@ public class GettersSetters {
 
 
 class employe{
-    Scanner sc=new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     private int id;
     private String name;
 
     public void setId(){
-       int id =sc.nextInt();
+        id = sc.nextInt();
     }
 
     public void setName(){
