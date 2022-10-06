@@ -1,11 +1,11 @@
 package datastructure;
 
 import java.util.*;
-public class Ips2Question {
+public class  Ips2Question {
     public static void main(String[] args) {
         stock dollar=new stock("$");
         dollar.getinfo();
-//        dollar.getchangepercent();
+        dollar.getchangepercent();
         System.out.println(dollar.getchangepercent());
 
     }
@@ -30,8 +30,7 @@ class stock{
         return change;
     }
 
-    stock(String stocksymbol){
-        String stockname=stocksymbol;
+    stock(String stocksymbol) {
+        stockname = stocksymbol;
     }
-
 }

@@ -8,7 +8,7 @@ public class W3spractice {
         n.getnumber();
         n.divisibleby3();
         n.divisibleby5();
-//        n.divisibleby35();
+        n.divisibleby35();
     }
 }
 
