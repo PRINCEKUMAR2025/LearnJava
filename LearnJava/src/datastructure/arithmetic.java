@@ -17,7 +17,30 @@ package datastructure;
 
 import java.util.*;
 
-public class ipsnew {
+
+
+//class operations extends arithmetic{
+//    void putdata(){
+//        System.out.println(sum);
+//        System.out.println(sub);
+//        System.out.println(mul);
+//        System.out.println(div);
+//    }
+//}
+
+class main{
+    public static void main(String[] var){
+        arithmetic a=new arithmetic();
+        a.getdata();
+//        a.putdata();
+        a.add();
+        a.sub();
+        a.mul();
+        a.div();
+    }
+}
+
+public class arithmetic {
     Scanner sc=new Scanner(System.in);
     private int num1;
     private int num2;
@@ -26,6 +49,10 @@ public class ipsnew {
     void getdata(){
         num1=sc.nextInt();
         num2=sc.nextInt();
+    }
+    void showdata(){
+        System.out.println(num1);
+        System.out.println(num2);
     }
 
     void add(){
@@ -45,6 +72,8 @@ public class ipsnew {
             System.out.println("Both numbers are negative");
         }
     }
+
+    public class arithmetic(int num1,int num2);
 
     void sub(){
         if(num1<0){
@@ -71,33 +100,12 @@ public class ipsnew {
 
     void div(){
         if(num1==0 || num2==0){
-            System.out.println("Second number is negative");
+            System.out.println("Both numbers are negative");
         }
         else{
             int div=num1/num2;
             System.out.println(div);
         }
 
-    }
-}
-
-class operations extends arithmetic{
-    void putdata(){
-        System.out.println(sum);
-        System.out.println(sub);
-        System.out.println(mul);
-        System.out.println(div);
-    }
-}
-
-class Main{
-    public static void main(String[] var){
-        arithmetic a=new arithmetic();
-        a.getdata();
-        a.putdata();
-        a.add();
-        a.sub();
-        a.mul();
-        a.div();
     }
 }
