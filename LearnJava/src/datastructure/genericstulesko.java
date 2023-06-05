@@ -6,7 +6,7 @@ public class genericstulesko {
     container<Integer> cont=new container<>();
     cont.value=5;
     cont.show();
-    demo1();
+//    demo1();
     }
 }
 

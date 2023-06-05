@@ -3,7 +3,7 @@ import java.util.*;
 //import java.util.ArrayList;
 public class Generics {
     public static void main(String[] args) {
-        ArrayList<String> arrayList=new ArrayList<>();
+        ArrayList<String> arrayList=new ArrayList<String>();
         arrayList.add("Hello");
         arrayList.add("prince");
         arrayList.add("this side");
